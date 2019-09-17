@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mizu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\MiZU\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\MiZU\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\MiZU\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->D:\MiZU\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\MiZU\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\MiZU\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\MiZU\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\MiZU\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\MiZU\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->D:\MiZU\app\src\main\AndroidManifest.xml:12:9-92
+22            android:name="com.example.mizu.ThankYou"
+22-->D:\MiZU\app\src\main\AndroidManifest.xml:12:19-43
+23            android:screenOrientation="portrait" />
+23-->D:\MiZU\app\src\main\AndroidManifest.xml:12:44-80
+24        <activity
+24-->D:\MiZU\app\src\main\AndroidManifest.xml:13:9-93
+25            android:name="com.example.mizu.bookingconfirmation"
+25-->D:\MiZU\app\src\main\AndroidManifest.xml:13:19-54
+26            android:screenOrientation="portrait" />
+26-->D:\MiZU\app\src\main\AndroidManifest.xml:13:55-91
+27        <activity
+27-->D:\MiZU\app\src\main\AndroidManifest.xml:14:9-81
+28            android:name="com.example.mizu.NewCard"
+28-->D:\MiZU\app\src\main\AndroidManifest.xml:14:19-42
+29            android:screenOrientation="portrait" />
+29-->D:\MiZU\app\src\main\AndroidManifest.xml:14:43-79
+30        <activity
+30-->D:\MiZU\app\src\main\AndroidManifest.xml:15:9-81
+31            android:name="com.example.mizu.Payment"
+31-->D:\MiZU\app\src\main\AndroidManifest.xml:15:19-42
+32            android:screenOrientation="portrait" />
+32-->D:\MiZU\app\src\main\AndroidManifest.xml:15:43-79
+33        <activity
+33-->D:\MiZU\app\src\main\AndroidManifest.xml:16:9-85
+34            android:name="com.example.mizu.NewAddress"
+34-->D:\MiZU\app\src\main\AndroidManifest.xml:16:19-45
+35            android:screenOrientation="portrait" />
+35-->D:\MiZU\app\src\main\AndroidManifest.xml:16:46-82
+36        <activity
+36-->D:\MiZU\app\src\main\AndroidManifest.xml:17:9-88
+37            android:name="com.example.mizu.confirmaddress"
+37-->D:\MiZU\app\src\main\AndroidManifest.xml:17:19-49
+38            android:screenOrientation="portrait" />
+38-->D:\MiZU\app\src\main\AndroidManifest.xml:17:50-86
+39        <activity
+39-->D:\MiZU\app\src\main\AndroidManifest.xml:18:9-87
+40            android:name="com.example.mizu.Main2Activity"
+40-->D:\MiZU\app\src\main\AndroidManifest.xml:18:19-48
+41            android:screenOrientation="portrait" />
+41-->D:\MiZU\app\src\main\AndroidManifest.xml:18:49-85
+42        <activity
+42-->D:\MiZU\app\src\main\AndroidManifest.xml:19:9-82
+43            android:name="com.example.mizu.Address"
+43-->D:\MiZU\app\src\main\AndroidManifest.xml:19:19-42
+44            android:screenOrientation="portrait" />
+44-->D:\MiZU\app\src\main\AndroidManifest.xml:19:43-79
+45        <activity
+45-->D:\MiZU\app\src\main\AndroidManifest.xml:20:9-79
+46            android:name="com.example.mizu.login"
+46-->D:\MiZU\app\src\main\AndroidManifest.xml:20:19-40
+47            android:screenOrientation="portrait" />
+47-->D:\MiZU\app\src\main\AndroidManifest.xml:20:41-77
+48        <activity
+48-->D:\MiZU\app\src\main\AndroidManifest.xml:21:9-27:20
+49            android:name="com.example.mizu.MainActivity"
+49-->D:\MiZU\app\src\main\AndroidManifest.xml:21:19-47
+50            android:screenOrientation="portrait" >
+50-->D:\MiZU\app\src\main\AndroidManifest.xml:21:48-84
+51            <intent-filter>
+51-->D:\MiZU\app\src\main\AndroidManifest.xml:22:13-26:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\MiZU\app\src\main\AndroidManifest.xml:23:17-69
+52-->D:\MiZU\app\src\main\AndroidManifest.xml:23:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\MiZU\app\src\main\AndroidManifest.xml:25:17-77
+54-->D:\MiZU\app\src\main\AndroidManifest.xml:25:27-74
+55            </intent-filter>
+56        </activity>
+57    </application>
+58
+59</manifest>
